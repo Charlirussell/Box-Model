@@ -1,0 +1,161 @@
+body {
+  background-color: #D2D1D2;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+div.container {
+  width: 80%;
+  background-color: white;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid;
+}
+img {
+  margin: 20px auto;
+}
+h1 {
+  border-top: 2px solid #A02F2F;
+  border-bottom: 2px solid #A02F2F;
+  width: 95%;
+  margin: 0 auto;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+h1 strong {
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  padding: 8px 15px;
+  display: inline-block;
+}
+main {
+  margin: 15px 80px;
+}
+article {
+  text-align: center; 
+  padding: 20px;
+  margin: 0 auto; 
+  max-width: 70%; 
+  border-radius: 10px;
+  background-color: #EEEEEE;
+}
+h1, h2, h3, strong {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 28px;
+  padding: 30px 0 15px 0;
+}
+h3 {
+  font-size: 22px;
+  color: #A02F2F;
+}
+article header img {
+  width: 100px;
+  height: auto;
+}
+p {
+  font-weight: 400;
+  margin: 15px;
+  text-align: left;
+  line-height: 1.25;
+}
+.paragraph-intro {
+  border-top: 1px solid;
+  padding-top: 15px;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+footer {
+  background-color: #EEEEEE;
+  margin: 3% auto;
+  padding: 20px 0 70px 0;
+  width: 95%;
+}
+section {
+  background-color: white;
+}
+section li {
+  color: #8E0606;
+  background-color: #EEEEEE;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px auto;
+  width: 70%
+}
+section li:hover {
+  color: #EEEEEE;
+  background-color: #8E0606;   
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.picture {
+  border: 2px solid #EEEEEE;
+  margin-bottom: 15px;
+  background-color: white;
+}
+.img-gallery {
+  height: 110px;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  div.container {
+    width: 80%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  article {
+    max-width: 90%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  div.container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  article {
+    max-width: 100%;
+  }
+  main {
+    margin: 15px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+  section li {
+    font-size: 12px;
+  }
+  .img-gallery {
+    height: 80px;
+  }
+}
